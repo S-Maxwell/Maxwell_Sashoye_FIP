@@ -59,11 +59,17 @@ ul li a {
 /* Hero Section Styles */
 
 .hero {
+    background-color: #FFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 50px;
-    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-text h1 {
