@@ -4,10 +4,37 @@
 
 /*---General Styles---*/
 
+/* General Body Styles */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #C13436;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+/* Header Navigation Styles */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #C13436;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
     color: #000;
 }
 
@@ -15,6 +42,16 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     color: #FFF;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    background-color: #FFF;
 }
 
 .hero-text h1 {
@@ -35,6 +72,22 @@ body {
 .hero-image img {
     max-width: 100%;
     height: auto;
+}
+
+/* Info Grid Section Styles */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #C13436;
+}
+
+.info-item {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
 }
 
 .info-item img {
