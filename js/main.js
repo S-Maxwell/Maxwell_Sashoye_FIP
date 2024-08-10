@@ -1,11 +1,6 @@
 console.log('JavaScript is running!');
 
-let burger = document.querySelector("#button");
-    let burgerCon = document.querySelector("#burger-con");
-
-    function hamburgerMenu() {
-        burger.classList.toggle("expanded");
-        burgerCon.classList.toggle("slide-toggle");
-    }
-
-    burger.addEventListener("click", hamburgerMenu, false);
+document.querySelector('.shop-now').addEventListener('click', function() {
+        alert('Redirecting to the shop page!');
+        window.location.href = 'shop.html';
+    });
