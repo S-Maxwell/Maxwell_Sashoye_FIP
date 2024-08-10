@@ -28,11 +28,10 @@ header nav {
 .header-container {
     position: relative;
     width: 100%;
-    background-color: #f4f4f4;
     padding: 20px;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -41,11 +40,11 @@ ul {
     gap: 20px;
 }
 
-ul li {
+.nav ul li {
     margin-left: 20px;
 }
 
-ul li a {
+.nav ul li a {
     text-decoration: none;
     color: #7B2321;
     font-size: 1.2em;
@@ -152,10 +151,11 @@ ul li a {
 }
 
 .info-item p {
-    margin: 0;
-    font-size: 1em;
+    margin: 0 0 20px 0;
+    line-height: 1.2em;
+    font-size: 2.5em;
     color: #000;
-
+    z-index: 2;
 }
 
 h2 {
