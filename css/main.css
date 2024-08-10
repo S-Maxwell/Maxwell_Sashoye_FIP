@@ -25,20 +25,36 @@ header nav {
     background-color: #C13436;
 }
 
+.header-container {
+    position: relative;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
 ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
     gap: 20px;
+}
+
+ul li {
+    margin-left: 20px;
 }
 
 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #7B2321;
+    font-size: 1.2em;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    size: medium;
 
 }
 
