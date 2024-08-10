@@ -44,9 +44,9 @@ header nav {
     margin-left: 20px;
 }
 
-.nav ul li a {
+ul li a {
     text-decoration: none;
-    color: #7B2321;
+    color: #000;
     font-size: 1.2em;
 }
 
@@ -54,7 +54,6 @@ header nav {
     display: flex;
     align-items: center;
     size: medium;
-
 }
 
 .logo img, .logo svg {
@@ -72,25 +71,28 @@ header nav {
 
 /* Hero Section Styles */
 
-.hero {
+.can-section {
     background-color: #FFF;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
     border-radius: 10px;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
 }
 
-.hero-text h1 {
+.text-content h1 {
     font-family: 'Bungee', sans-serif;
+    text-align: right;
     font-size: 2em;
     font-weight: bold;
-    color: #B45334;
+    max-width: 600px;
+    color: #C13436;
 }
 
 .circle {
@@ -111,18 +113,17 @@ header nav {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 1.2em;
-    z-index: 2;
+    margin-top: 20px;
 }
 
 .shop-now-btn:hover {
     background-color: #7B2321;
 }
 
-.hero-image img {
-    max-width: 100%;
-    height: auto;
+.can-image img {
+    width: 300px;
+    z-index: 2;
+    transform: rotate(-10deg);
 }
 
 /* Info Grid Section Styles */
@@ -132,7 +133,6 @@ header nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    background-color: #C13436;
 }
 
 .info-item {
@@ -143,6 +143,12 @@ header nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.info-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .info-item img {
     max-width: 100%;
     height: auto;
@@ -151,17 +157,15 @@ header nav {
 }
 
 .info-item p {
-    margin: 0 0 20px 0;
-    line-height: 1.2em;
-    font-size: 2.5em;
+    font-size: 1em;
     color: #000;
-    z-index: 2;
+   margin: 0;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: #B45334;
+    color: black;
     margin: 0;
 }
 
