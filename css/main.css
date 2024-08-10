@@ -4,8 +4,6 @@
 
 /*---General Styles---*/
 
-/* General Body Styles */
-
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -106,20 +104,34 @@ ul li a {
     background-color: #FFF;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .info-item img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .info-item p {
+    margin: 0;
     font-size: 1em;
     color: #000;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #B45334;
+    margin: 0;
 }
 
 h2 span {
-    font-size: 2.5em;
+    font-size: 3em;
     color: #B45334;
+    display: block;
+    margin-top: 10px;
 }
