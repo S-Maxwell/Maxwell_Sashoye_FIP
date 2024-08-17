@@ -16,30 +16,28 @@
 <body>
     
 <header>
-     <!--Main Navigation-->
-    <nav>
-        <div class="logo">
-            <img src="../Quatro Logo 2 Background Removed.png" alt="Q Logo">
-            <span class="logo-text">uatro</span>
-        </div>
 
-        <div class="header-container"></div>
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html">Collection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+     <!--Main Navigation-->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo-mobile.svg" alt="Logo">
+        </div>
+        <button class="menu-toggle">
+            <img src="images/burger.svg" alt="Menu">
+        </button>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
         </header>
 
 
      <!--Main Section-->
      <main>
         <section class="can-section">
-            <div class="can">
-                <img src="../lichi.png" alt="Lichi Luxe Can" class="can-image">
-                <div class="circle"></div>
-            </div>
+                <img src="images/Main_Lichi_Can_2.png" alt="Lichi Luxe Can" class="can-image">
             <div class="text-content">
                 <h1>Taste the natural essence of health in every bubbly drop</h1>
                 <button class="shop-now">Shop Now</button>
@@ -61,9 +59,48 @@
         </section>
      </main>
 
+
       <!--Footer-->
-     <footer>
-              <p>&copy;Quatro Drink Inc. All Rights Reserved. Privacy Policy.</p>
+        <footer class="grid-con" id="contact-footer">
+            <div id="footer-logo" class="col-span-1 l-col-start-1 l-col-end-3">
+                <a href="index.html"><object type="image/svg+xml" data="images/logo-mobile.svg"></object></a>
+            </div>
+    
+            <nav class="footer-nav col-start-2 col-span-1 l-col-start-3 l-col-end-5">
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQS</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="footer-nav col-start-2 col-span-1 l-col-start-7 l-col-end-9">
+                <ul>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Terms Of Use</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="footer-nav col-start-2 col-span-1  l-col-start-10 l-col-end-12">
+                <ul>
+                    <li><a href="">News</a></li>
+                </ul>
+            </nav>
+    
+            <div class="social-media col-start-1 col-span-2 l-col-span-full">
+                <object type="image/svg+xml" data="images/Linkedin-icon.svg"></object>
+                <object type="image/svg+xml" data="images/Twitter-icon.svg"></object>
+                <object type="image/svg+xml" data="images/Google-icon.svg"></object>
+                <object type="image/svg+xml" data="images/Facebook-icon.svg"></object>
+                <object type="image/svg+xml" data="images/Instagram-icon.svg"></object>
+            </div>
+    
+            <p class="col-start-1 col-span-2 l-col-span-full"> All prices and services on this website and in our reservation system are based on
+                conditions at the time of publishing and are subject to change. Please contact us to confirm services,
+                availability and pricing.</p>
+                
+              <p> &copy; Quatro Drink Inc. All Rights Reserved. Privacy Policy.</p>
      </footer>
      <script src="js/main.js"></script>
 </body>
