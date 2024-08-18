@@ -18,11 +18,11 @@ body {
 
 .header {
  background-color: #F5F5F5;
- padding: 20px;
+ padding: 20px;   
 }
 
 .header nav {
-    max-width: 1200px;
+    max-width: 1200px ;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -36,7 +36,8 @@ background-color: #F5F5F5;
     padding: 20px;
 }
 
-.nav ul {
+
+/* .nav ul {
     display: flex;
     margin: 0;
     padding: 0;
@@ -51,7 +52,7 @@ ul li a {
     color: #723622;
     font-size: 1.2em;
     transition: color 0.3s ease;
-}
+} */
 
 .logo {
     display: flex;
@@ -76,7 +77,7 @@ ul li a {
 /* Main Section Styles */
 
 .can-section {
-    background-color:#F5F5F5;
+    background-color: #FFFFFF;
     display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -85,7 +86,7 @@ ul li a {
     border-radius: 10px;
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -100,8 +101,8 @@ ul li a {
 }
 
 .shop-now {
-    background-color: #F5F5F5;
-    color: #C42B38;
+    background-color: #C42B38;
+    color:#723622;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
